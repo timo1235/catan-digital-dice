@@ -38,10 +38,10 @@ A smart digital dice module made specifically for **The Settlers of Catan**. Fea
 
 ## ⚡ Easy Web Installer – No Arduino IDE Needed
 
-💡 You can flash the firmware directly from your browser using the **ESP Web Tools**!  
+💡 You can flash the firmware for the ESP32 C3 Super Mini directly from your browser using the **ESP Web Tools**!  
 No setup, no headaches.
 
-👉 [Click here to flash the firmware in your browser](https://example.com/flash-url) *(placeholder)*
+👉 [Click here to flash the firmware in your browser](https://timo1235.github.io/catan-digital-dice/) 
 
 ---
 
@@ -163,9 +163,9 @@ No setup, no headaches.
 ## 🧱 3D Print Files
 
 All STL files can be found on **MakerWorld**.  
-They are designed to perfectly snap into your Catan terrain using embedded magnets.
+They are designed to perfectly snap into your Catan terrain when using the Danzkala 2.0 design.
 
-🧩 [View STL files on MakerWorld](https://example.com/makerworld-link) *(placeholder)*
+🧩 [View STL files on MakerWorld](https://makerworld.com/de/models/1309111-catan-digital-dice-esp32-dice-tower)
 
 ---
 
