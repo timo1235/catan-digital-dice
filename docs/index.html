@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CATAN Dice Flasher</title>
+    <script type="module" src="https://unpkg.com/esp-web-tools@10.1.0/dist/web/install-button.js?module"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            padding: 2rem;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        .flasher {
+            margin-top: 2rem;
+        }
+
+        .note {
+            max-width: 600px;
+            margin: 2rem auto;
+            background-color: #fff8dc;
+            padding: 1rem;
+            border-left: 4px solid #ffa500;
+            font-size: 1rem;
+            line-height: 1.4;
+        }
+
+        .preview {
+            margin-top: 3rem;
+        }
+
+        .preview img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .caption {
+            font-size: 0.95rem;
+            color: #555;
+            margin-top: 0.5rem;
+        }
+
+        footer {
+            margin-top: 4rem;
+            font-size: 0.9rem;
+            color: #444;
+        }
+
+        footer a {
+            color: #007acc;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CATAN Dice Firmware Installer</h1>
+    <p>Click the button below to install the latest firmware onto your ESP32 C3 Super Mini.</p>
+
+    <div class="flasher">
+        <esp-web-install-button manifest="firmware/manifest_esp32_panel.json"></esp-web-install-button>
+    </div>
+
+    <div class="note">
+        ⚠️ <strong>Important:</strong> Before flashing, hold down the <strong>BOOT</strong> button on your ESP32-C3,
+        then briefly press the <strong>RESET</strong> button (or unplug/replug the device).<br />
+        This will put the ESP32 into <strong>bootloader mode</strong> so it can be flashed.
+    </div>
+
+    <p style="margin-top: 2rem; font-size: 0.9rem;">
+        Make sure your ESP32 is connected via USB and drivers are installed.
+    </p>
+
+    <div class="preview">
+        <img src="assets/catan-dice-summary.png" alt="CATAN Dice Project Preview">
+        <div class="caption">Preview of the CATAN Dice in action – multiple game modes, statistics and more.</div>
+    </div>
+
+    <footer>
+        <p>🔗 View the full project on <a href="https://github.com/timo1235/catan-digital-dice"
+                target="_blank">GitHub</a></p>
+    </footer>
+</body>
+
+</html>

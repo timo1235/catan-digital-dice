@@ -1,0 +1,17 @@
+{
+    "name": "Catan-Dice Fimware",
+    "version": "latest",
+    "new_install_prompt_erase": false,
+    "builds": [
+        {
+            "chipFamily": "ESP32-C3",
+            "improv": false,
+            "parts": [
+                {
+                    "path": "latest.bin",
+                    "offset": "0x0"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "catan-digital-dice",
+  "description": "A sleek, digital dice system designed for The Settlers of Catan including all expansions. It features a user-friendly interface, customizable settings, and a built-in random number generator for fair play. The system is designed to enhance the gaming experience by providing an easy-to-use and visually appealing way to roll dice.",
+  "authors": [
+    {
+      "name": "Timo Altholtmann",
+      "email": "blog@altholtmann.com",
+      "maintainer": true
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timo1235/catan-digital-dice"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "scripts": {
+    "dev": "http-server docs"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
